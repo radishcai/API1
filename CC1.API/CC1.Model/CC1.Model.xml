@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CC1.Model</name>
+    </assembly>
+    <members>
+        <member name="T:CC1.Model.BaseId">
+            <summary>
+            基础模型类
+            </summary>
+        </member>
+        <member name="P:CC1.Model.BaseId.Id">
+            <summary>
+            主键ID，自动增长
+            </summary>
+        </member>
+        <member name="P:CC1.Model.User.UserCode">
+            <summary>
+            用户编号
+            </summary>
+        </member>
+        <member name="P:CC1.Model.User.UserName">
+            <summary>
+            用户姓名
+            </summary>
+        </member>
+        <member name="P:CC1.Model.User.UserPwd">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="P:CC1.Model.User.Phone">
+            <summary>
+            手机
+            </summary>
+        </member>
+        <member name="P:CC1.Model.User.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:CC1.Model.User.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:CC1.Model.User.IsValid">
+            <summary>
+            是否禁用 1是 0否
+            </summary>
+        </member>
+        <member name="P:CC1.Model.User.IsAdmin">
+            <summary>
+            是否管理员 1是 0否
+            </summary>
+        </member>
+        <member name="P:CC1.Model.User.LastTime">
+            <summary>
+            上次登录时间
+            </summary>
+        </member>
+        <member name="P:CC1.Model.User.LoginNum">
+            <summary>
+            登录次数
+            </summary>
+        </member>
+        <member name="P:CC1.Model.User.Create">
+            <summary>
+            创建时间
+            </summary>
+        </member>
+    </members>
+</doc>

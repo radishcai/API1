@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>..\CC1.API\CC1.API\CC1.API.xml</DocumentationFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="11.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.27" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CC1.Common\CC1.Common.csproj" />
+    <ProjectReference Include="..\CC1.IService\CC1.IService.csproj" />
+    <ProjectReference Include="..\CC1.Model\CC1.Model.csproj" />
+    <ProjectReference Include="..\CC1.Repository\CC1.Repository.csproj" />
+    <ProjectReference Include="..\CC1.Service\CC1.Service.csproj" />
+    <ProjectReference Include="..\IRepository\CC1.IRepository.csproj" />
+  </ItemGroup>
+
+
+</Project>

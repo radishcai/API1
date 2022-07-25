@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>CC1.API</name>
+    </assembly>
+    <members>
+        <member name="M:CC1.API.Controllers.UserController.Create(CC1.Model.User)">
+            <summary>
+            创建用户 api/User/Create
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+        <member name="M:CC1.API.Controllers.UserController.Edit(AutoMapper.IMapper,CC1.Model.Dto.UserDTO)">
+            <summary>
+            修改用户 api/User/Edit
+            </summary>
+            <param name="user"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

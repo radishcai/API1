@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CC1.IService\CC1.IService.csproj" />
+    <ProjectReference Include="..\CC1.Model\CC1.Model.csproj" />
+    <ProjectReference Include="..\IRepository\CC1.IRepository.csproj" />
+  </ItemGroup>
+
+</Project>
